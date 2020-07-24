@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [practise testng]">
+  <test thread-count="5" name="first test(failed)">
+    <classes>
+      <class name="final_prac.login">
+        <methods>
+          <include name="login_browse"/>
+          <include name="BrowserLaunch"/>
+          <include name="quit"/>
+          <include name="setup"/>
+          <include name="testcasesample2"/>
+          <include name="testcasesample1"/>
+        </methods>
+      </class> <!-- final_prac.login -->
+      <class name="final_prac.fb_launch">
+        <methods>
+          <include name="launch"/>
+          <include name="logintest"/>
+        </methods>
+      </class> <!-- final_prac.fb_launch -->
+    </classes>
+  </test> <!-- first test(failed) -->
+</suite> <!-- Failed suite [practise testng] -->
